@@ -2,7 +2,7 @@
 
 import mysql.connector
 
-cnx = mysql.connector.connect(user='ck', password='ab1234',host='localhost',database='finance')
+cnx = mysql.connector.connect(user='ck', password='ab1234',database='finance')
 
 cursor = cnx.cursor()
 query =("SELECT * FROM users")
